@@ -10,12 +10,19 @@
 
 @interface EVXViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *mySlideLabel;
+@property (weak, nonatomic) IBOutlet UISlider *mySlider;
 
 @end
 
 @implementation EVXViewController
 - (IBAction)mySlideAction:(id)sender
 {
+    float v = self.mySlider.value;
+
+    NSString *newValue;
+
+    newValue = [NSString stringWithFormat:@"%f",v];
+    self.mySlideLabel.text = newValue;
 }
 
 - (void)viewDidLoad

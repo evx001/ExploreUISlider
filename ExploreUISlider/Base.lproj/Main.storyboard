@@ -37,6 +37,7 @@
                     </view>
                     <connections>
                         <outlet property="mySlideLabel" destination="Lc6-vi-Dzg" id="5tj-Cw-wr6"/>
+                        <outlet property="mySlider" destination="uwf-bH-5ta" id="h2H-Vy-X7W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
